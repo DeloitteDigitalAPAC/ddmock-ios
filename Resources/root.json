@@ -1,0 +1,21 @@
+{
+    "PreferenceSpecifiers": [
+        {
+            "DefaultValue": true,
+            "Key": "use_real_apis",
+            "Title": "Use real APIs",
+            "Type": "PSToggleSwitchSpecifier"
+        },
+        {
+            "File": "general",
+            "Title": "General",
+            "Type": "PSChildPaneSpecifier"
+        },
+        {
+            "Title": "MOCK",
+            "Type": "PSGroupSpecifier",
+            "FooterText": "Note that strict mode being set at build time will override the 'Use real APIs' setting."
+        }
+    ],
+    "StringsTable": "Root"
+}
